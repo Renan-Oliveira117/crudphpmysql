@@ -25,7 +25,7 @@ if ($_POST) {
 }
 echo "<h1>Formulário de Contato</h1>";
 if (isset($_SESSION['mensagem'])) {
-    echo "<div class='alert alert-danger' role='alert'>" . $_SESSION['mensagem'] . "</div>";
+    echo "<div class='alert alert-success' role='alert'>" . $_SESSION['mensagem'] . "</div>";
     unset($_SESSION['mensagem']);
 }
 ?>
